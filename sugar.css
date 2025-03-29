@@ -1,0 +1,336 @@
+/* body {
+    background-image: url(logo.png.jpg);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0.5;
+} */
+ * {
+    font-family: 'Times New Roman', Times, serif;
+ }
+body {
+    background-image: url(./assets/logo.png.jpg);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: top sticky;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: -1;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('sugar-mill.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 100px 20px;
+}
+
+section {
+    padding: 50px 20px;
+}
+.card {
+        /* height: 100px; */
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 25px;
+        margin: 10px;
+        background-color: black;
+}
+#about {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#Milestone {
+    background-image: url(./assets/1932.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    /* position: relative; */
+}
+
+.milestone-text {
+    background: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    width: 80%;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+/* Mds Corner */
+.card {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+    color: white;
+}
+.desc {
+    padding: 0 2px 0 2px;
+}
+
+img {
+    width: 50%;
+    border-radius: 5px 5px 0 0;
+}
+.card:hover {
+    box-shadow: 0 8px 16px goldenrod;
+}
+
+/* .product {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    background-color: brown;
+    color: black;
+} */
+ .product1 {
+    background-image: url(./assets/white-sugar.jpeg);
+    background-position: 25%;
+    background-repeat: no-repeat;
+    border: 10px solid black;
+    padding: 50px;
+    width: 200px;
+    height: 250px;
+    color: black;
+ }
+ .product1:hover {
+    box-shadow: 0 8px 16px black;
+ }
+ .product2 {
+    background-image: url(./assets/power.png);
+    background-position: 25%;
+    background-repeat: no-repeat;
+    border: 10px solid black;
+    padding: 50px;
+    width: 200px;
+    height: 250px;
+    color: black; 
+ }
+ .product2:hover {
+    box-shadow: 0 5px 15px black;
+ }
+ .product3 {
+    background-image: url(./assets/etanol.jpeg);
+    background-position: 25%;
+    background-repeat: no-repeat;
+    border: 10px solid black;
+    padding: 50px;
+    width: 200px;
+    height: 250px;
+    color: black;
+ }
+ .product3:hover {
+    box-shadow: 0 8px 16px black;
+ }
+
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #6B4226;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#contact {
+    color: black;
+    background-color: skyblue;
+}
+/* join us  */
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #218838;
+}
+#perf {
+    background-image: url(./assets/performence.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+/* header sec */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%; /* Circular images */
+}
+
+.navbar h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+/* footer */
+.button body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.form-container {
+    display: none;
+    margin-top: 20px;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+label, input, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input, select {
+    padding: 8px;
+}
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #218838;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5em;
+        height: 200px;
+    }
+    #products {
+        padding: 10px;
+    }
+}
