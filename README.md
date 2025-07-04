@@ -1,2 +1,3 @@
 # sugar-industry
-this site is under-devlopment with least functionality in it....
+my first self - made project
+
